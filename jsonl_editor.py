@@ -182,6 +182,18 @@ function recomputeColumns() {
   for (const c of topLevelChildren()) walk(c);
   S.columns = out;
 }
+function autoExpand() {
+  S.expanded = [];
+  const walk = p => {
+    const kids = childPaths(p);
+    if (kids && kids.length) {
+      S.expanded.push(p);
+      for (const c of kids) walk(c);
+    }
+  };
+  for (const c of topLevelChildren()) walk(c);
+  recomputeColumns();
+}
 
 /* ---------- editing ---------- */
 function toValue(input, cur) {
@@ -402,9 +414,8 @@ async function loadFile(path) {
   const data = await res.json();
   S.rows = data.rows;
   S.fileName = data.path;
-  S.expanded = [];
+  autoExpand();
   $("savePath").value = data.path;
-  recomputeColumns();
   render();
   checkDraft();
 }
