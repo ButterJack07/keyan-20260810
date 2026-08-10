@@ -370,7 +370,7 @@ $("foldBtn").addEventListener("click", () => {
 
 async function refreshFiles() {
   const res = await fetch("/api/files");
-  const list = await res.json();
+  const list = (await res.json()).files || [];
   const sel = $("fileSel");
   sel.innerHTML = "";
   list.forEach(f => {
