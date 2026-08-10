@@ -46,10 +46,10 @@ th .colpath{font-family:ui-monospace,Consolas,"Microsoft YaHei",monospace;font-s
 .collapsebtn{margin-left:6px;border:none;background:#eaeef2;border-radius:4px;cursor:pointer;font-size:11px;padding:1px 6px;color:#57606a}
 .collapsebtn:hover{background:#d0d7de}
 td.rownum,td.actions{text-align:center;white-space:nowrap;color:#57606a;background:#fafbfc;width:30px}
-td.cell{max-width:420px;white-space:pre-wrap;word-break:break-word;max-height:7em;overflow:hidden;cursor:pointer;font-family:ui-monospace,Consolas,"Microsoft YaHei",monospace;font-size:12px}
-td.cell.open{max-height:none}
+td.cell{max-width:520px;min-width:160px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer;font-family:ui-monospace,Consolas,"Microsoft YaHei",monospace;font-size:12px}
+td.cell.open{white-space:normal;overflow:visible;text-overflow:clip;word-break:break-word}
 td.cell.empty{color:#999;font-style:italic}
-td.cell.editing{cursor:text;padding:2px;max-height:none}
+td.cell.editing{cursor:text;padding:2px;white-space:normal;overflow:visible}
 td.cell.editing textarea,td.cell.editing input{width:100%;border:2px solid var(--accent);border-radius:4px;font-family:inherit;font-size:12px;resize:vertical;background:#fff}
 tr.invalid td{background:var(--errbg)}
 .invalbox .err{color:var(--err);font-size:12px;margin-bottom:4px;word-break:break-all}
