@@ -20,7 +20,7 @@
 {"id":"qa_012","question":"目前导航欺骗干扰主要分为什么类型？","answer":"主要分为自主生成式导航欺骗干扰和转发式导航欺骗干扰两类。","gold_chunks":[{"doc":"基于惯导与GNSS测姿解算的导航欺骗信号检测_石荣.pdf","page":3,"quote":"目前在各类公开发表的文献中报道过的导航 欺骗干扰主要有如下两种类型： 1）自主生成式导航欺骗干扰 ... 2）转发式导航欺骗干扰 ..."}],"hop_docs":[],"need_image":false,"difficulty":"easy","lang":"zh","annotator":"郑高健"}
 {"id":"qa_013","question":"GPS 信号由什么部分组成？","answer":"由数据码、伪码和载波三部分组成","gold_chunks":[{"doc":"基于阵列的卫星导航抗欺骗干扰方法研究.pdf","page":17,"quote":"2.2.0 GPS 信号结构  GPS 信号由数据码、伪码和载波三部分组成。"}],"hop_docs":[],"lang":"zh","annotator":"郑高健"}
 {"id":"qa_014","question":"在跟踪站到 iGMAS 数据中心实时数据传输约定中，不同信息类型对发送频率的要求是什么？","answer":"1 帧/小时（3 种）：系统参数信息（1013）、天线参考点信息（1006）、接收机和天线信息（1033）； 1 帧/秒（4 种）：GPS 观测数据（1077）、GLONASS 观测数据（1087）、Galileo 观测数据（1097）、BDS 观测数据（1127）。","gold_chunks":[{"doc":"全球连续监测评估系统接入技术要求 第1部分：跟踪站.pdf","page":9,"quote":"表 1  跟踪站到iGMAS数据中心实时数据传输约定  1013 系统参数信息 1 帧 / 小时 1006 天线参考点信息 1 帧 / 小时 1033 接收机和天线信息 1 帧 / 小时 1077 GPS 观测数据 1 帧 / 秒 1087 GLONASS 观测数据 1 帧 / 秒 1097 Galileo 观测数据 1 帧 / 秒 1127 BDS 观测数据 1 帧 / 秒"}],"type":"simple","hop_docs":[],"need_image":"false","difficulty":"mid","lang":"zh","annotator":"郑高健"}
-{"id":"qa_015"}
+{"id":"qa_015","question":"什么是无线电监测？"}
 {"id":"qa_016"}
 {"id":"qa_017"}
 {"id":"qa_018"}
