@@ -17,9 +17,9 @@
 {"id":"qa_009","question":"《福建省 “十四五” 数字福建专项规划》中指出的培育“3+2”物联网产业集聚区指的是什么？","answer":"打造三个千亿级（福州、厦门、泉州）、两个百亿级（莆田、漳州）物联网产业集聚区。","gold_chunks":[{"doc":"福建省“十四五”数字福建专项规划.docx","page":23,"quote":"培育“3+2”物联网产业集聚区：依托马尾等物联网产业基地，补强设计、研发等产业链关键环节，提升研发中试、检测检验平台化服务能力，打造三个千亿级（福州、厦门、泉州）、两个百亿级（莆田、漳州）物联网产业集聚区。"}],"hop_docs":[],"lang":"zh","annotator":"郑高健"}
 {"id":"qa_010","hop_docs":[],"lang":"zh","annotator":"郑高健"}
 {"id":"qa_011","answer":1,"hop_docs":[],"lang":"zh","annotator":"郑高健"}
-{"id":"qa_012","answer":1,"hop_docs":[],"lang":"zh","annotator":"郑高健"}
-{"id":"qa_013","answer":1,"hop_docs":[],"lang":"zh","annotator":"郑高健"}
-{"id":"qa_014","answer":1,"hop_docs":[],"lang":"zh","annotator":"郑高健"}
+{"id":"qa_012","hop_docs":[],"lang":"zh","annotator":"郑高健"}
+{"id":"qa_013","hop_docs":[],"lang":"zh","annotator":"郑高健"}
+{"id":"qa_014","hop_docs":[],"lang":"zh","annotator":"郑高健"}
 {"id":"qa_015"}
 {"id":"qa_016"}
 {"id":"qa_017"}
