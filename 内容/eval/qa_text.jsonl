@@ -12,7 +12,7 @@
 {"id":"qa_004","question":"集群通信中区域网的定义是什么？","answer":"由多个单区网通过区域控制中心连接(或系统控制中心相互 连接)而成的多区集群通信网，网内具备自动漫游或半自动漫游 功能。","gold_chunks":[{"doc":"《数字集群通信工程技术规范》GBT50760-2012.pdf","page":10,"quote":"2. 1. 4  区域网 district area network  由多个单区网通过区域控制中心连接(或系统控制中心相互 连接)而成的多区集群通信网，网内具备自动漫游或半自动漫游 功能。"}],"type":"simple","hop_docs":[],"need_image":false,"difficulty":"easy","lang":"zh","annotator":"郑高健"}
 {"id":"qa_005","question":"多载波系统的信道中心频率如何定义？","answer":"多载波系统的信道中心频率应被视为 n 个独立载波频率的算术平均值。","gold_chunks":[{"doc":"R-REC-F.384-11-201203-I!!PDF-C.pdf","page":7,"quote":"多载波系统是由同一射频设备同时发射（或接收）n(n＞1)个数字调制载波信号的系 统。中心频率应被视为多载波系统的n个独立载波频率的算术平均值。 "}],"type":"simple","hop_docs":[],"need_image":false,"difficulty":"easy","lang":"zh","annotator":"郑高健"}
 {"id":"qa_006","question":"安徽省低空经济实施方案提出打造哪两个低空经济核心城市？","answer":"合肥和芜湖","gold_chunks":[{"doc":"安徽省加快培育发展低空经济实施方案（2024—2027年）及若干措施.docx","page":4,"quote":"打造合肥、芜湖两个低空经济核心城市"}],"type":"simple","hop_docs":[],"need_image":false,"difficulty":"easy","lang":"zh","annotator":"郑高健"}
-{"id":"qa_007","hop_docs":[],"lang":"zh","annotator":"郑高健"}
+{"id":"qa_007","question":"无线电频率使用许可的期限最长不得超过多少年？","hop_docs":[],"lang":"zh","annotator":"郑高健"}
 {"id":"qa_008","hop_docs":[],"lang":"zh","annotator":"郑高健"}
 {"id":"qa_009","hop_docs":[]}
 {"id":"qa_010","hop_docs":[]}
